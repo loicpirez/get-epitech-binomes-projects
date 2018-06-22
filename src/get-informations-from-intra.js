@@ -15,7 +15,6 @@ async function getAllActivitiesWithBinomesFromIntra (authToken, email) {
       const intra = new Intranet(authToken, email)
       intra.fetch(`/user/${email}/binome/?format=json`)
         .then(binomes => resolve(getActivities(binomes)))
-        .catch(error => throw error)
     }
   )
 }
