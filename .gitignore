@@ -63,3 +63,6 @@ typings/
 
 
 # End of https://www.gitignore.io/api/node
+dist/index.js
+dist/get-informations-from-intra.js
+dist/index.js
